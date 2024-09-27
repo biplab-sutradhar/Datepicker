@@ -78,7 +78,6 @@ function DatepickerModel ({ value, onChange }) {
        {
         visibleDate.map(date => (
           <button
-            // onClick={() => onChange(date)}
             onClick={() => selectedDate(date)}
             className={`
               date
